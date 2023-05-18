@@ -25,3 +25,6 @@
 12. Eu armazeno as contagens retornadas pela função em uma tupla chamada "(letterCount, consonantCount, vowelCount, wordCount)".
 
 13. Por fim, eu imprimo as contagens usando o comando "print()".
+
+Espero que lhe ajude. By Miranda
+OBS: Essa versao tem complexidade O(n). Tem como otimizar um pouquinho mais.

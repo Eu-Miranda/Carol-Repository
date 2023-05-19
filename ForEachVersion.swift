@@ -6,6 +6,8 @@ func countLettersConsonantsVowelsWords(in string: String) -> (Int, Int, Int, Int
     var wordCount = 0
     
     /* 
+    Preferi explicar por aqui mesmo. Desculpa a falta de acentos, meu teclado nao e ABNT2 e da trabalho escrever ascentuando 😅
+    
     1. Chamei o metodo 'lowecased' para converter as string para minusculo;
     2. Depois chamei o famoso metodo 'forEach', que sera responsavel por iterar em cada caractere da string
     3. Depois irei verificar se cada caractere e uma letrinha usando 'character.isLetter'.
@@ -34,3 +36,4 @@ func countLettersConsonantsVowelsWords(in string: String) -> (Int, Int, Int, Int
     
     return (letterCount, consonantCount, vowelCount, wordCount)
 }
+

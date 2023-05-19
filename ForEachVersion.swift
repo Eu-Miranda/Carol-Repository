@@ -37,3 +37,10 @@ func countLettersConsonantsVowelsWords(in string: String) -> (Int, Int, Int, Int
     return (letterCount, consonantCount, vowelCount, wordCount)
 }
 
+let inputPhrase = "Voce consegue!"
+let (letterCount, consonantCount, vowelCount, wordCount) = countLettersConsonantsVowelsWords(in: inputPhrase)
+
+print("Quantidade de letras: \(letterCount)")
+print("Quantidade de consoantes: \(consonantCount)")
+print("Quantidade de vogais: \(vowelCount)")
+print("Quantidade de palavras: \(wordCount)")
